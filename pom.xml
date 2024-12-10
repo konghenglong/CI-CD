@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.kh</groupId>
 	<artifactId>ci-cd</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>ci-cd</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -48,6 +48,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>${artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
